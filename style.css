@@ -1,0 +1,60 @@
+b {color: #fff!important}
+  html {overflow-y: scroll;}
+#async-buttons, #buttons {
+  display: none;
+}  
+ul {
+  list-style: none;
+}
+ul li:before {
+    content: '🙏🏻';
+    margin-right: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+input#input {
+    padding: 12px 15px;
+    border-radius: 100px;
+    text-align: left;
+    border: 7px solid #0f9;
+    background: #000;
+    margin: 30px 0px 40px;
+    box-shadow: 0 15px 20px #00ff9950;
+    color: #fff;
+    font-size: 16px;
+    max-width: 80%;
+}
+* {
+  outline:none !important;
+}
+html, body {
+  overflow-y: auto;
+  background: #000 !important;
+}
+h1, .box {
+  text-align: center;
+  color: #fff;
+}
+.sr_smartbox {
+  width: 100%;
+  text-align: center;
+}
+.sr_smartbible {
+  max-width: 777px;
+  margin: 5% auto 0;
+  color:#60f;
+}
+#results {
+  line-height: 24px;
+  position: relative;
+  top: -20px;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #9762ff;
+}
+#results ul li {
+  margin: 0 0 10px;
+}
+div#results p {
+  display: none;
+}
